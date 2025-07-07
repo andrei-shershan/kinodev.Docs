@@ -1,6 +1,6 @@
 # Kinodev
 
-- [Section A](#what-is-about)  
+- [What is about?](#what-is-about)  
 
 
 ---
@@ -8,48 +8,13 @@
 ## What is about
 
 
-Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  
+KinoDev is MVP project
 
-Here are the details for Section A.  Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  Here are the details for Section A.  
-Here are the details for Section A.  Here are the details for Section A.  
-ere are the details for Section A.  
-Here are the details for Section A.  
-
-Here are the details for Section A.  Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  Here are the details for Section A.  
-Here are the details for Section A.  Here are the details for Section A.  
-ere are the details for Section A.  
-Here are the details for Section A.  
-
-Here are the details for Section A.  Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  Here are the details for Section A.  
-Here are the details for Section A.  Here are the details for Section A.  
-ere are the details for Section A.  
-Here are the details for Section A.  
-
-Here are the details for Section A.  Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  
-Here are the details for Section A.  Here are the details for Section A.  
-Here are the details for Section A.  Here are the details for Section A.  
+> [!WARNING]
+> This is MVP / Proof of concept only, it contais only limited happy path
 
 ---
 
 
-Here are the details for Section A.  Here are the details for Section A.  
-Here are the details for Section A.  Here are the details for Section A.  
 
   
