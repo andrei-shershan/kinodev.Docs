@@ -9,8 +9,8 @@
 
 KinoDev is simple MVP project, representing Cinema management system.
 
-> [!WARNING]
-> This is MVP / Proof of concept only, it contais only limited happy path
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
 
 
 ## Architecture and stack
@@ -18,7 +18,6 @@ KinoDev is simple MVP project, representing Cinema management system.
 ### Architecture
 
 This is microservices architecture, uses several api, databases, etc.
-
 
 ![kinodev drawio (2)](https://github.com/user-attachments/assets/491d567d-1763-456a-995e-e63bc5d487aa)
 
@@ -36,9 +35,33 @@ Main components:
   - Identity - responsible for authorization;
 - Docker - for local development
 
+> [!NOTE]
+> Local and Live environment architectually the same, but they may use difference services / storages / containers for development and cost-saving reasons
+
+> [!NOTE]
+> I plan to simplify arcitecture by reducing amound of web-services (storage-service, email-service) and replace them with Azure Functions
 
 ### Stack
 
+Descripe all stack
 
-  
+## Delivery
+
+## Use cases
+
+### Admin Flow
+
+#### Admin signin
+
+#### Admin review pages
+
+#### Admin creation new moview showtime process
+
+### User Flow
+
+#### Purchase tickets
+
+#### Review tickets
+
+## 
 ---
