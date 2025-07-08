@@ -9,8 +9,9 @@
 
 KinoDev is simple MVP project, representing Cinema management system.
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+> [!IMPORTANT]
+> Current project state is delivered MVP, it contains only minimal happy flow path.
+> Further development temporary postponed.
 
 
 ## Architecture and stack
@@ -45,6 +46,8 @@ Main components:
 
 Descripe all stack
 
+## Development
+
 ## Delivery
 
 ## Use cases
@@ -63,5 +66,9 @@ Descripe all stack
 
 #### Review tickets
 
-## 
+## Afterwords
+
+### What is good here?
+
+### What could be improved?
 ---
