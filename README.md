@@ -41,25 +41,44 @@ Main components:
 
 ## Stack
 
-### Languages and apps
+Backend: .net, etc
+UI: React, typescipt, etc.
+DB: MySQL, MongoDB, etc
+etc.
 
-### Developments tools
+Github Copilot
 
 ## Development
 
 ### Local running
 
+Local run process with Docker
+
 ### Source code
+
+Github source
 
 ### PR and branch policies
 
-## Delivery
+Github PR and branch policies, build actions
 
-### CI / CD pipelines
+## Delivery
 
 ### Azure Devops
 
+Azure devops environment
+
 ### Azure Portal
+
+Azure Portal details
+
+### CI / CD pipelines
+
+Pipelines and applies process
+
+## Monitoring
+
+Monitoring with App insights
 
 ## Use cases
 
