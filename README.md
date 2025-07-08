@@ -19,8 +19,8 @@ KinoDev is simple MVP project, representing Cinema management system.
 
 This is microservices architecture, uses several api, databases, etc.
 
-![kinodev drawio (1)](https://github.com/user-attachments/assets/d3264515-08c7-4a2d-81aa-7adafb2051cc)
 
+![kinodev drawio (2)](https://github.com/user-attachments/assets/491d567d-1763-456a-995e-e63bc5d487aa)
 
 Main components:
 - Frontend;
