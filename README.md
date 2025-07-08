@@ -101,4 +101,6 @@ Monitoring with App insights
 ### What is good here?
 
 ### What could be improved?
+
+### What's next?
 ---
