@@ -13,10 +13,7 @@ KinoDev is simple MVP project, representing Cinema management system.
 > Current project state is delivered MVP, it contains only minimal happy flow path.
 > Further development temporary postponed.
 
-
-## Architecture and stack
-
-### Architecture
+## Architecture
 
 This is microservices architecture, uses several api, databases, etc.
 
@@ -42,13 +39,27 @@ Main components:
 > [!NOTE]
 > I plan to simplify arcitecture by reducing amound of web-services (storage-service, email-service) and replace them with Azure Functions
 
-### Stack
+## Stack
 
-Descripe all stack
+### Languages and apps
+
+### Developments tools
 
 ## Development
 
+### Local running
+
+### Source code
+
+### PR and branch policies
+
 ## Delivery
+
+### CI / CD pipelines
+
+### Azure Devops
+
+### Azure Portal
 
 ## Use cases
 
