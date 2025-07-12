@@ -6,7 +6,7 @@
 
 ## What is about
 
-KinoDev is simple MVP project, representing Cinema management system.
+KinoDev is a minimalistic MVP for streamlined cinema management and ticket sales. Built with a modern tech stack, it lets theater owners schedule screenings, configure halls and seat layouts, track real-time availability, and process online payments securely.
 
 > [!IMPORTANT]
 > Current project state is delivered MVP, it contains only minimal happy flow path.
@@ -40,10 +40,12 @@ Main components:
 
 ## Stack
 
-Backend: .net, etc
-UI: React, typescipt, etc.
-DB: MySQL, MongoDB, etc
-etc.
+FrontEnd: React, JavaScript, TypeScript
+Backend: .NET, ASP.NEW web-api
+DB: MySQL, Entity Framework, MongoDB
+Authentication: Identity server 
+Message Broker: Azure Service Bus, RabbitMQ
+
 
 Github Copilot
 
