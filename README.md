@@ -134,7 +134,12 @@ Navigate to `KinoDev.Docker` prokect, run `docker compose up --build -d`
 
 ### PR and branch policies
 
-Github PR and branch policies, build actions
+Direct commits to the `main` branch are disallowed by **branch policy**, all changes must be merged via **pull requests**.
+
+Builds are run via **GitHub Actions** before any pull request is merged.
+
+<img width="908" height="166" alt="image" src="https://github.com/user-attachments/assets/5c89ce57-0b85-413a-9a12-ac27bb990f13" />
+
 
 ## Delivery
 
