@@ -140,16 +140,20 @@ Builds are run via **GitHub Actions** before any pull request is merged.
 
 <img width="908" height="166" alt="image" src="https://github.com/user-attachments/assets/5c89ce57-0b85-413a-9a12-ac27bb990f13" />
 
-
 ## Delivery
+
+### Azure Portal
+
+Azure Services are properly setup.
+
+<img width="1733" height="829" alt="image" src="https://github.com/user-attachments/assets/3278dc43-ceda-4f20-b0c8-1c61ca85bb3f" />
+
+> [!NOTE]
+> I used Free / Minimal Cost services
 
 ### Azure Devops
 
 Azure devops environment
-
-### Azure Portal
-
-Azure Portal details
 
 ### CI / CD pipelines
 
