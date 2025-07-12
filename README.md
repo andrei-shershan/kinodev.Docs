@@ -89,9 +89,46 @@ All source code available on GitHub:
 
 ### Local running
 
-Local run process with Docker
+Clone all repos above. 
 
+Open Kinodev.Docker project, rename `.env.sample` to `.env`, replace all `{{ }}` values with propper keys / secrets.
 
+Create an OpenSSL Configuration File `*.cnf`
+Add next DNS:
+
+```
+DNS.1 = ui.kinodev.localhost
+127.0.0.1 api-gateway.kinodev.localhost
+127.0.0.1 domain-service.kinodev.localhost
+127.0.0.1 ui.kinodev.localhost
+127.0.0.1 identity.kinodev.localhost
+127.0.0.1 payment-service.kinodev.localhost
+127.0.0.1 email-service.kinodev.localhost
+127.0.0.1 functions.kinodev.localhost
+```
+
+Generate the Certificate and Private Key, configure Traefik to Use Your Certificate, att `certs` folder into Docker project Root.
+
+Adjust `C:\Windows\System32\drivers\etc\hosts`:
+
+```
+127.0.0.1 api-gateway.kinodev.localhost
+127.0.0.1 domain-service.kinodev.localhost
+127.0.0.1 ui.kinodev.localhost
+127.0.0.1 identity.kinodev.localhost
+127.0.0.1 images.kinodev.localhost
+127.0.0.1 payment-service.kinodev.localhost
+127.0.0.1 mongo-express.kinodev.localhost
+127.0.0.1 servicebus.kinodev.localhost
+127.0.0.1 sqledge.kinodev.localhost
+127.0.0.1 rabbitmq.kinodev.localhost
+127.0.0.1 rabbitmq-ui.kinodev.localhost
+127.0.0.1 email-service.kinodev.localhost
+127.0.0.1 gotenberg.kinodev.localhost
+127.0.0.1 azurite-blob.kinodev.localhost
+127.0.0.1 storage-service.kinodev.localhost
+127.0.0.1 functions.kinodev.localhost
+```
 
 ### PR and branch policies
 
