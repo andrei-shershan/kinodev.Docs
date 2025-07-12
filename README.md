@@ -136,6 +136,11 @@ Navigate to `KinoDev.Docker` prokect, run `docker compose up --build -d`
 
 ### PR and branch policies
 
+> [!NOTE]
+> I know that for now commit history looks terrible :smile:
+> 
+> In real life business project I would use proper commit messages, incuding ticket number and code changes description 
+
 Direct commits to the `main` branch are disallowed by **branch policy**, all changes must be merged via **pull requests**.
 
 Builds are run via **GitHub Actions** before any pull request is merged.
@@ -207,5 +212,13 @@ Monitoring with App insights
 
 ### What could be improved?
 
+- Add more business logic to cover full managment, including edit, delete, etc;
+- Implement customer accout;
+- Add authentication with Google, Facebook, etc;
+- Implement Stripe Webhook;
+- Add new payment provider with BLIK payments support;
+- Propper error handling;
+- Increase test coverage;
+
 ### What's next?
----
+Current development is temporarily suspend. I will continue one day...
