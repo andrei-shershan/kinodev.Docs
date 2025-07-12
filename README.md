@@ -1,9 +1,8 @@
 # Kinodev
 
 - [What is about?](#what-is-about)
-- [Architecture and stack](#architecture-and-stack)
-  - [Architecture](#architecture)
-  - [Stack](#stack)
+- [Architecture](#architecture)
+- [Stack](#stack)
 
 ## What is about
 
