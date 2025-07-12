@@ -40,13 +40,13 @@ Main components:
 
 ## Stack
 
-FrontEnd: **React**, **JavaScript**, **TypeScript**
+FrontEnd: **React**, **TypeScript**, **JavaScript** 
 
-Backend: **.NET**, **ASP.NEW webapi**
+Backend: **.NET**, **ASP.NET webapi**
 
 DB: **MySQL**, **EntityFramework**, **MongoDB**
 
-Authentication: **ASP.NET Identity**,  
+Authentication: **ASP.NET Identity**
 
 Message Broker: **Azure Service Bus**, **RabbitMQ**
 
