@@ -1,4 +1,4 @@
-# Kinodev
+# KinoDev
 
 - [What is about?](#what-is-about)
 - [Architecture](#architecture)
