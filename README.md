@@ -179,7 +179,7 @@ When PR is merged, it requires Approval to deploy to Live stage:
 
 When approved, then app is deployed:
 
-
+<img width="1063" height="843" alt="image" src="https://github.com/user-attachments/assets/f1e2f25f-b2fc-4b66-b7bb-34c643bfb99d" />
 
 ## Monitoring
 
