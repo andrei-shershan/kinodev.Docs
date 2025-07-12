@@ -40,12 +40,19 @@ Main components:
 
 ## Stack
 
-FrontEnd: React, JavaScript, TypeScript
-Backend: .NET, ASP.NEW web-api
-DB: MySQL, Entity Framework, MongoDB
-Authentication: Identity server 
-Message Broker: Azure Service Bus, RabbitMQ
+FrontEnd: **React**, **JavaScript**, **TypeScript**
 
+Backend: **.NET**, **ASP.NEW webapi**
+
+DB: **MySQL**, **EntityFramework**, **MongoDB**
+
+Authentication: **Identity server** 
+
+Message Broker: **Azure Service Bus**, **RabbitMQ**
+
+Serverless: **Azure Functions**
+
+Containerization: **Docker**, **Traefik** reverse proxy
 
 Github Copilot
 
