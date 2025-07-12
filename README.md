@@ -46,7 +46,7 @@ Backend: **.NET**, **ASP.NEW webapi**
 
 DB: **MySQL**, **EntityFramework**, **MongoDB**
 
-Authentication: **Identity server** 
+Authentication: **ASP.NET Identity**,  
 
 Message Broker: **Azure Service Bus**, **RabbitMQ**
 
@@ -54,7 +54,13 @@ Serverless: **Azure Functions**
 
 Containerization: **Docker**, **Traefik** reverse proxy
 
-Github Copilot
+Version control: **GitHub**
+
+CI/CD: **GitHub Actions**, **Azure DevOps Pipelines**
+
+Tools and instruments: **Visual Studio**, **Visual Studio Code**
+
+AI: **Github Copilot**, **ChatGPT**
 
 ## Development
 
