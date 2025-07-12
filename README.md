@@ -1,16 +1,22 @@
 # KinoDev
 
+KinoDev is a minimalistic MVP for streamlined cinema management and ticket sales. Built with a modern tech stack, it lets theater owners schedule screenings, configure halls and seat layouts, track real-time availability, and process online payments securely.
+
+__Follow this link to see the website: [KINODEV - minimalistic MVP](https://ui-hxh5eqemg5dmeddy.polandcentral-01.azurewebsites.net/)__
+
+> [!NOTE]
+> Free or Low cost Azure services were used for deployment, so it works **'a little bit'** slow
+
+> [!NOTE]
+> Current project state is delivered MVP, it contains only minimal happy flow path.
+> Further development temporary postponed.
+
+---
+
 - [What is about?](#what-is-about)
 - [Architecture](#architecture)
 - [Stack](#stack)
 
-## What is about
-
-KinoDev is a minimalistic MVP for streamlined cinema management and ticket sales. Built with a modern tech stack, it lets theater owners schedule screenings, configure halls and seat layouts, track real-time availability, and process online payments securely.
-
-> [!IMPORTANT]
-> Current project state is delivered MVP, it contains only minimal happy flow path.
-> Further development temporary postponed.
 
 ## Architecture
 
@@ -210,15 +216,21 @@ Monitoring with App insights
 
 ### What is good here?
 
+- MPV is developed and deployed;
+- It covers basic happy flow for admin and customer.
+
 ### What could be improved?
 
+- Code quality, it could be better;
+- Adjust architecture, reduce unnecessary services;
 - Add more business logic to cover full managment, including edit, delete, etc;
+- Add more details about movies - directors, actors, tags, ratings, etc.;
 - Implement customer accout;
 - Add authentication with Google, Facebook, etc;
 - Implement Stripe Webhook;
 - Add new payment provider with BLIK payments support;
 - Propper error handling;
-- Increase test coverage;
+- Increase test coverage, esprecially UI with jest.
 
 ### What's next?
 Current development is temporarily suspend. I will continue one day...
