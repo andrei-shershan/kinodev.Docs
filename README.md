@@ -52,11 +52,17 @@ Message Broker: **Azure Service Bus**, **RabbitMQ**
 
 Serverless: **Azure Functions**
 
+Tests: **Unit Tests**, **xUnit**
+
 Containerization: **Docker**, **Traefik** reverse proxy
 
-Version control: **GitHub**
+Version control: **Git**
+
+NuGet: private **GitHub Packages**
 
 CI/CD: **GitHub Actions**, **Azure DevOps Pipelines**
+
+Cloud: **Azure**
 
 Tools and instruments: **Visual Studio**, **Visual Studio Code**
 
