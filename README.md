@@ -57,6 +57,8 @@ Testing: **Unit Tests (xUnit)**
 
 Containerization: **Docker**, **Traefik** reverse proxy
 
+Distributed Cache: **Redis**
+
 Version control: **Git**
 
 Package Management: NuGet (private packages via **GitHub Packages**)
@@ -151,13 +153,33 @@ Azure Services are properly setup.
 > [!NOTE]
 > I used Free / Minimal Cost services
 
-### Azure Devops
+### Azure Devops and CI / CD pipelines
 
-Azure devops environment
+Azure Devops setup to support Delivery / Deploy:
 
-### CI / CD pipelines
+Environements:
 
-Pipelines and applies process
+<img width="1129" height="644" alt="image" src="https://github.com/user-attachments/assets/5a4ec617-f3fa-4145-97cf-ab299cca29b8" />
+
+Service connection:
+<img width="1006" height="953" alt="image" src="https://github.com/user-attachments/assets/4aefa90e-d0a6-4d1a-a93d-b6166fec40f3" />
+
+
+Pipelines (use existing project pipelines from GitHub):
+<img width="1909" height="817" alt="image" src="https://github.com/user-attachments/assets/5d6d80e1-a62c-4704-99bd-631faa38b5c2" />
+
+Pipelines use Environment Variables:
+<img width="1006" height="951" alt="image" src="https://github.com/user-attachments/assets/0fca6cfa-4950-42dd-aa74-736e8652f990" />
+
+Environment requires Approvals to deploy:
+<img width="1069" height="676" alt="image" src="https://github.com/user-attachments/assets/baefc933-397a-4089-bfda-7a51077c5859" />
+
+When PR is merged, it requires Approval to deploy to Live stage:
+<img width="1063" height="818" alt="image" src="https://github.com/user-attachments/assets/5ed0bb26-aca3-4e18-b7af-f0eb03c72043" />
+
+When approved, then app is deployed:
+
+
 
 ## Monitoring
 
