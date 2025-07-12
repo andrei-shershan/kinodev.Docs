@@ -130,6 +130,8 @@ Adjust `C:\Windows\System32\drivers\etc\hosts`:
 127.0.0.1 functions.kinodev.localhost
 ```
 
+Navigate to `KinoDev.Docker` prokect, run `docker compose up --build -d`
+
 ### PR and branch policies
 
 Github PR and branch policies, build actions
