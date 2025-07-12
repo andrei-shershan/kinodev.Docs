@@ -40,11 +40,11 @@ Main components:
 
 ## Stack
 
+Backend: **.NET (C#)**, **ASP.NET Web API**
+
 FrontEnd: **React**, **TypeScript**, **JavaScript** 
 
-Backend: **.NET**, **ASP.NET webapi**
-
-DB: **MySQL**, **EntityFramework**, **MongoDB**
+DB: **MySQL**, **MongoDB**, **Entity Framework Core**
 
 Authentication: **ASP.NET Identity**
 
@@ -52,21 +52,23 @@ Message Broker: **Azure Service Bus**, **RabbitMQ**
 
 Serverless: **Azure Functions**
 
-Tests: **Unit Tests**, **xUnit**
+Testing: **Unit Tests (xUnit)**
 
 Containerization: **Docker**, **Traefik** reverse proxy
 
 Version control: **Git**
 
-NuGet: private **GitHub Packages**
+Package Management: NuGet (private packages via **GitHub Packages**)
 
 CI/CD: **GitHub Actions**, **Azure DevOps Pipelines**
 
-Cloud: **Azure**
+Cloud: **Microsoft Azure**
 
-Tools and instruments: **Visual Studio**, **Visual Studio Code**
+Development Tools & IDEs: **Visual Studio**, **Visual Studio Code**
 
-AI: **Github Copilot**, **ChatGPT**
+AI-Assisted Tools:: **Github Copilot**, **ChatGPT**
+
+Code Hosting: **GitHub**
 
 ## Development
 
