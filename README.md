@@ -30,6 +30,7 @@ Main components:
   - Message broker - responsible for interservices communication;
   - Functions triggered by Service bus - responsible for proper business logic handling;
   - Identity - responsible for authorization;
+  - Shared - NuGet package keeping DTOs, common logic, etc, to avoid code duplicaiton between services
 - Docker - for local development
 
 > [!NOTE]
@@ -72,13 +73,25 @@ Code Hosting: **GitHub**
 
 ## Development
 
+### Source code
+
+All source code available on GitHub:
+- [Docker](https://github.com/andrei-shershan/KinoDev.Docker)
+- [UI](https://github.com/andrei-shershan/KinoDev.UI)
+- [Identity](https://github.com/andrei-shershan/KinoDev.Identity)
+- [ApiGateway](https://github.com/andrei-shershan/KinoDev.ApiGateway)
+- [DomainService](https://github.com/andrei-shershan/KinoDev.DomainService)
+- [PaymentService](https://github.com/andrei-shershan/KinoDev.Payment)
+- [EmailService](https://github.com/andrei-shershan/KinoDev.EmailService)
+- [StorageService](https://github.com/andrei-shershan/KinoDev.StorageService)
+- [Functions](https://github.com/andrei-shershan/Kinodev.Functions)
+- [Shared](https://github.com/andrei-shershan/KinoDev.Shared)
+
 ### Local running
 
 Local run process with Docker
 
-### Source code
 
-Github source
 
 ### PR and branch policies
 
