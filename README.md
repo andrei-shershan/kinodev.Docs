@@ -149,7 +149,7 @@ Navigate to `KinoDev.Docker` prokect, run `docker compose up --build -d`
 
 Direct commits to the `main` branch are disallowed by **branch policy**, all changes must be merged via **pull requests**.
 
-Builds are run via **GitHub Actions** before any pull request is merged.
+Builds are run via **GitHub Actions** before pull request is merged.
 
 <img width="908" height="166" alt="image" src="https://github.com/user-attachments/assets/5c89ce57-0b85-413a-9a12-ac27bb990f13" />
 
@@ -162,7 +162,7 @@ Azure Services are properly setup.
 <img width="1733" height="829" alt="image" src="https://github.com/user-attachments/assets/3278dc43-ceda-4f20-b0c8-1c61ca85bb3f" />
 
 > [!NOTE]
-> I used Free / Minimal Cost services
+> I used Free / Minimal Cost services only
 
 ### Azure Devops and CI / CD pipelines
 
@@ -174,7 +174,6 @@ Environements:
 
 Service connection:
 <img width="1006" height="953" alt="image" src="https://github.com/user-attachments/assets/4aefa90e-d0a6-4d1a-a93d-b6166fec40f3" />
-
 
 Pipelines (use existing project pipelines from GitHub):
 <img width="1909" height="817" alt="image" src="https://github.com/user-attachments/assets/5d6d80e1-a62c-4704-99bd-631faa38b5c2" />
@@ -217,7 +216,7 @@ Monitoring with App insights
 ### What is good here?
 
 - MPV is developed and deployed;
-- It covers basic happy flow for admin and customer.
+- It covers basic happy flow for admin and customer;
 
 ### What could be improved?
 
@@ -225,7 +224,7 @@ Monitoring with App insights
 - Adjust architecture, reduce unnecessary services;
 - Add more business logic to cover full managment, including edit, delete, etc;
 - Add more details about movies - directors, actors, tags, ratings, etc.;
-- Implement customer accout;
+- Implement customer account;
 - Add authentication with Google, Facebook, etc;
 - Implement Stripe Webhook;
 - Add new payment provider with BLIK payments support;
