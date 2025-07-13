@@ -75,9 +75,11 @@ Cloud: **Microsoft Azure**
 
 Development Tools & IDEs: **Visual Studio**, **Visual Studio Code**
 
-AI-Assisted Tools:: **Github Copilot**, **ChatGPT**
-
 Code Hosting: **GitHub**
+
+AI-Assisted Tools*: **Github Copilot**, **ChatGPT**
+
+_*AI was used mostly to assist, autocomplete, create boilerplates, vibe-coding took less than 30% of overall time. _
 
 ## Development
 
@@ -233,6 +235,8 @@ Application Insights Telemetry is available for services:
 
 - MPV is developed and deployed;
 - It covers basic happy flow for admin and customer;
+- In general, tech stack is good;
+- New tools (AI) was used.
 
 ### What could be improved?
 
