@@ -219,9 +219,21 @@ Application Insights Telemetry is available for services:
 
 #### Admin signin
 
-#### Admin review pages
+Navigate to `/signin` and enter Admin / Manager credentials.
+
+<img width="1469" height="1006" alt="image" src="https://github.com/user-attachments/assets/5a7e25af-e3d0-4fcb-b9a8-04cb779215a5" />
+
+After successful sign-in, user redirect to `admin-portal`.
 
 #### Admin creation new moview showtime process
+
+Admin can add new cinema halls, movies and show timews:
+
+<img width="1374" height="1015" alt="image" src="https://github.com/user-attachments/assets/c92cf4ff-ca1e-401f-ab92-4e058953e73f" />
+
+<img width="1310" height="1019" alt="image" src="https://github.com/user-attachments/assets/6a62246b-9a52-41c9-99cd-4026c7168062" />
+
+When show time added, it appears in `showing` section of Customer portal.
 
 ### User Flow
 
