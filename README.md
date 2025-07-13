@@ -239,6 +239,7 @@ Monitoring with App insights
 - Add authentication with Google, Facebook, etc;
 - Implement Stripe Webhook;
 - Add new payment provider with BLIK payments support;
+- Add order cancellation and refund;
 - Propper error handling;
 - Increase test coverage, esprecially UI with jest.
 
