@@ -266,18 +266,21 @@ If code is valid, then the customer sees their tickets:
 
 ### What could be improved?
 
-- Code quality, it could be better;
-- Adjust architecture, reduce unnecessary services;
-- Be careful with timezones;
-- Add more business logic to cover full management, including edit, delete, etc;
-- Add more details about movies - directors, actors, tags, ratings, etc.;
-- Implement customer account;
-- Add authentication with Google, Facebook, etc;
-- Implement Stripe Webhook;
-- Add new payment provider with BLIK payments support;
-- Add order cancellation and refund;
-- Proper error handling;
-- Increase test coverage, especially the UI with Jest.
+- General:
+  - Code quality, it could be better;
+  - Reduce amount of services;
+  - Better error handling;
+  - Increase test coverage, especially the UI with Jest
+- Business logic:
+  - Add more business logic to cover full management, including edit, delete, etc;
+  - Add more details about movies - directors, actors, tags, ratings, etc.;
+- Authenticaion and authorization:
+  - Implement customer account;
+  - Add authentication with Google, Facebook, etc;
+- Payments:
+  - Implement Stripe Webhook;
+  - Add order cancellation and refund;
+  - Add new payment provider with BLIK payments support;
 
 ### What's next?
 Current development is temporarily suspended. I will resume it one day.
