@@ -5,7 +5,7 @@ KinoDev is a minimalistic MVP for streamlined cinema management and ticket sales
 __Follow this link to see the website: [KINODEV - minimalistic MVP](https://ui-hxh5eqemg5dmeddy.polandcentral-01.azurewebsites.net/)__
 
 > [!NOTE]
-> I used free or low cost Azure services in cloud, so it works **'a little bit'** slow
+> I used free or low-cost Azure services in the cloud, so **it runs a bit slowly**.
 
 ---
 
@@ -15,7 +15,7 @@ __Follow this link to see the website: [KINODEV - minimalistic MVP](https://ui-h
 
 ## Architecture
 
-This is microservices architecture, uses several api, databases, etc.
+This is a microservices architecture; it uses several APIs, databases, etc.
 
 ![kinodev drawio (2)](https://github.com/user-attachments/assets/491d567d-1763-456a-995e-e63bc5d487aa)
 
@@ -26,19 +26,19 @@ Main components:
   - Domain-service - responsible for working with DB;
   - Email-service - responsible for email-notifications / email sending;
   - Storage-service - responsible for adding resources (images, pdf) into storage, handling PDF service;
-  - Payment-service - responsible for payment processing with Stripe and saving data in it's separate DB;
+  - Payment-service - responsible for payment processing with Stripe and saving data in its separate DB;
   - PDF Functions - responsible for PDF generation with 3rd party;
   - Message broker - responsible for interservices communication;
   - Functions triggered by Service bus - responsible for proper business logic handling;
   - Identity - responsible for authorization;
-  - Shared - NuGet package keeping DTOs, common logic, etc, to avoid code duplicaiton between services
+  - Shared - NuGet package keeping DTOs, common logic, etc, to avoid code duplication between services
 - Docker - for local development
 
 > [!NOTE]
-> Local and Live environment, in general, are the same, but they may use difference services / storages / containers for development and cost-saving reasons
+> Local and Live environments, in general, are the same, but they may use difference services / storages / containers for development and cost-saving reasons
 
 > [!NOTE]
-> I plan to simplify arcitecture by reducing amound of web-services (storage-service, email-service) and replace them with Azure Functions
+> I plan to simplify the architecture by reducing the number of web services (e.g. storage, email) and replacing them with Azure Functions
 
 ## Stack
 
@@ -80,7 +80,7 @@ _*AI was used mostly to assist, autocomplete, create boilerplates, vibe-coding t
 
 ### Source code
 
-All source code available on GitHub:
+All source code is available on GitHub:
 - [Docker](https://github.com/andrei-shershan/KinoDev.Docker)
 - [UI](https://github.com/andrei-shershan/KinoDev.UI)
 - [Identity](https://github.com/andrei-shershan/KinoDev.Identity)
@@ -96,10 +96,10 @@ All source code available on GitHub:
 
 Clone all repos above. 
 
-Open Kinodev.Docker project, rename `.env.sample` to `.env`, replace all `{{ PROPER_KEY }}` values with propper keys / secrets.
+Open Kinodev.Docker project, rename `.env.sample` to `.env`, replace all `{{ PROPER_KEY }}` values with proper keys / secrets.
 
 Create an OpenSSL Configuration File `*.cnf`
-Add next DNS:
+Add the following DNS entries:
 
 ```
 DNS.1 = ui.kinodev.localhost
@@ -112,7 +112,7 @@ DNS.1 = ui.kinodev.localhost
 127.0.0.1 functions.kinodev.localhost
 ```
 
-Generate the Certificate and Private Key, configure Traefik to Use Your Certificate, att `certs` folder into Docker project Root.
+Generate the Certificate and Private Key, configure Traefik to Use Your Certificate, add `certs` folder to the root of the Docker project.
 
 Adjust `C:\Windows\System32\drivers\etc\hosts`:
 
@@ -151,7 +151,7 @@ And website is available on `ui.kinodev.localhost`
 
 > [!NOTE]
 > I know that for now commit history looks terrible :smile:> 
-> In real life business project I would use proper commit messages, incuding ticket number and code changes description 
+> In a real-life business project I would use proper commit messages, including ticket number and code changes description 
 
 Direct commits to the `main` branch are disallowed by **branch policy**, all changes must be merged via **pull requests**.
 
@@ -217,11 +217,11 @@ Navigate to `/signin` and enter Admin / Manager credentials.
 
 <img width="1469" height="1006" alt="image" src="https://github.com/user-attachments/assets/5a7e25af-e3d0-4fcb-b9a8-04cb779215a5" />
 
-After successful sign-in, user redirect to `admin-portal`.
+After successful sign-in, the user is redirected to the `admin-portal`.
 
-#### Admin creation new movie showtime process
+#### Admin creating a new movie showtime
 
-Admin can add new cinema halls, movies and show timews:
+Admin can add new cinema halls, movies and showtimews:
 
 <img width="1096" height="1016" alt="image" src="https://github.com/user-attachments/assets/6dcb9ea2-82ae-48bc-8835-6b6d18e62c62" />
 
@@ -233,7 +233,7 @@ When show time added, it appears in `showing` section of Customer portal.
 
 #### Purchase tickets
 
-Customer select data and movie show time:
+Customer selects a date and movie showtime:
 
 <img width="1087" height="1024" alt="image" src="https://github.com/user-attachments/assets/a522e66b-5ebb-4c30-bb05-da6b4cfc86e4" />
 
@@ -243,15 +243,15 @@ Customer select data and movie show time:
 
 <img width="1096" height="1011" alt="image" src="https://github.com/user-attachments/assets/395b3495-de85-416c-9aec-b6239b913651" />
 
-The customer recieve pdf with ticket in email:
+The customer receives a PDF of the ticket via email:
 <img width="1406" height="826" alt="image" src="https://github.com/user-attachments/assets/4155bcb9-4820-4b1e-9e82-59bbe5e77cc4" />
 
 #### Review tickets
 
-Customer can download their tickets. They need to receive verification code by email:
+Customer can download their tickets. They need to receive a verification code by email:
 <img width="986" height="1014" alt="image" src="https://github.com/user-attachments/assets/2450c332-02d6-416f-86a8-92f6288d5787" />
 
-If code is valid, then customer see their tickets:
+If code is valid, then the customer sees their tickets:
 
 <img width="1039" height="1017" alt="image" src="https://github.com/user-attachments/assets/c6105fca-fa5c-4069-af47-5f4b2c1baea4" />
 
@@ -259,25 +259,25 @@ If code is valid, then customer see their tickets:
 
 ### What is good here?
 
-- MPV is developed and deployed;
+- MVP is developed and deployed;
 - It covers basic happy flow for admin and customer;
 - In general, tech stack is good;
-- New tools (AI) was used.
+- New tools (AI) were used.
 
 ### What could be improved?
 
 - Code quality, it could be better;
 - Adjust architecture, reduce unnecessary services;
 - Be careful with timezones;
-- Add more business logic to cover full managment, including edit, delete, etc;
+- Add more business logic to cover full management, including edit, delete, etc;
 - Add more details about movies - directors, actors, tags, ratings, etc.;
 - Implement customer account;
 - Add authentication with Google, Facebook, etc;
 - Implement Stripe Webhook;
 - Add new payment provider with BLIK payments support;
 - Add order cancellation and refund;
-- Propper error handling;
-- Increase test coverage, esprecially UI with jest.
+- Proper error handling;
+- Increase test coverage, especially the UI with Jest.
 
 ### What's next?
-Current development is temporarily suspend. I will continue one day...
+Current development is temporarily suspended. I will resume it one day.
