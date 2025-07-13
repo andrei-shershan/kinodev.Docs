@@ -229,9 +229,10 @@ After successful sign-in, user redirect to `admin-portal`.
 
 Admin can add new cinema halls, movies and show timews:
 
-<img width="1374" height="1015" alt="image" src="https://github.com/user-attachments/assets/c92cf4ff-ca1e-401f-ab92-4e058953e73f" />
+<img width="1096" height="1016" alt="image" src="https://github.com/user-attachments/assets/6dcb9ea2-82ae-48bc-8835-6b6d18e62c62" />
 
-<img width="1310" height="1019" alt="image" src="https://github.com/user-attachments/assets/6a62246b-9a52-41c9-99cd-4026c7168062" />
+<img width="1069" height="1015" alt="image" src="https://github.com/user-attachments/assets/bcadcebd-608f-4e45-bc18-207c10417749" />
+
 
 When show time added, it appears in `showing` section of Customer portal.
 
