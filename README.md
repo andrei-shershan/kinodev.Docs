@@ -5,18 +5,13 @@ KinoDev is a minimalistic MVP for streamlined cinema management and ticket sales
 __Follow this link to see the website: [KINODEV - minimalistic MVP](https://ui-hxh5eqemg5dmeddy.polandcentral-01.azurewebsites.net/)__
 
 > [!NOTE]
-> Free or Low cost Azure services were used for deployment, so it works **'a little bit'** slow
-
-> [!NOTE]
-> Current project state is delivered MVP, it contains only minimal happy flow path.
-> Further development temporary postponed.
+> I used free or low cost Azure services in cloud, so it works **'a little bit'** slow
 
 ---
 
 - [What is about?](#what-is-about)
 - [Architecture](#architecture)
 - [Stack](#stack)
-
 
 ## Architecture
 
@@ -40,7 +35,7 @@ Main components:
 - Docker - for local development
 
 > [!NOTE]
-> Local and Live environment architectually the same, but they may use difference services / storages / containers for development and cost-saving reasons
+> Local and Live environment, in general, are the same, but they may use difference services / storages / containers for development and cost-saving reasons
 
 > [!NOTE]
 > I plan to simplify arcitecture by reducing amound of web-services (storage-service, email-service) and replace them with Azure Functions
@@ -67,7 +62,7 @@ Distributed Cache: **Redis**
 
 Version control: **Git**
 
-Package Management: NuGet (private packages via **GitHub Packages**)
+Package Management: **NuGet** (private packages via **GitHub Packages**)
 
 CI/CD: **GitHub Actions**, **Azure DevOps Pipelines**
 
@@ -101,7 +96,7 @@ All source code available on GitHub:
 
 Clone all repos above. 
 
-Open Kinodev.Docker project, rename `.env.sample` to `.env`, replace all `{{ }}` values with propper keys / secrets.
+Open Kinodev.Docker project, rename `.env.sample` to `.env`, replace all `{{ PROPER_KEY }}` values with propper keys / secrets.
 
 Create an OpenSSL Configuration File `*.cnf`
 Add next DNS:
@@ -140,23 +135,22 @@ Adjust `C:\Windows\System32\drivers\etc\hosts`:
 127.0.0.1 functions.kinodev.localhost
 ```
 
-Navigate to `KinoDev.Docker` prokect, run `docker compose up --build -d`
+Navigate to `KinoDev.Docker` project, run `docker compose up --build -d`
 
 <img width="977" height="507" alt="image" src="https://github.com/user-attachments/assets/aa713d12-9b78-43f7-a162-9590d7b698c2" />
 
-Then all containers should run in Docker
+Then all containers should be running in Docker
+
 <img width="1875" height="945" alt="image" src="https://github.com/user-attachments/assets/b1b2e0ef-0e6a-49ec-9294-34ef8450e77d" />
 
 And website is available on `ui.kinodev.localhost`
 
 <img width="886" height="1024" alt="image" src="https://github.com/user-attachments/assets/94b427d8-5ab1-4c61-a259-eee41fa90765" />
 
-
 ### PR and branch policies
 
 > [!NOTE]
-> I know that for now commit history looks terrible :smile:
-> 
+> I know that for now commit history looks terrible :smile:> 
 > In real life business project I would use proper commit messages, incuding ticket number and code changes description 
 
 Direct commits to the `main` branch are disallowed by **branch policy**, all changes must be merged via **pull requests**.
@@ -169,12 +163,9 @@ Builds are run via **GitHub Actions** before pull request is merged.
 
 ### Azure Portal
 
-Azure Services are properly setup.
+Azure Services are properly setup:
 
 <img width="1733" height="829" alt="image" src="https://github.com/user-attachments/assets/3278dc43-ceda-4f20-b0c8-1c61ca85bb3f" />
-
-> [!NOTE]
-> I used Free / Minimal Cost services only
 
 ### Azure Devops and CI / CD pipelines
 
@@ -219,20 +210,22 @@ Application Insights Telemetry is available for services:
 
 #### Admin signin
 
+> [!NOTE]
+> I want to separate `customer-portal` and `admin-portal` projects and deploy them into separate apps
+
 Navigate to `/signin` and enter Admin / Manager credentials.
 
 <img width="1469" height="1006" alt="image" src="https://github.com/user-attachments/assets/5a7e25af-e3d0-4fcb-b9a8-04cb779215a5" />
 
 After successful sign-in, user redirect to `admin-portal`.
 
-#### Admin creation new moview showtime process
+#### Admin creation new movie showtime process
 
 Admin can add new cinema halls, movies and show timews:
 
 <img width="1096" height="1016" alt="image" src="https://github.com/user-attachments/assets/6dcb9ea2-82ae-48bc-8835-6b6d18e62c62" />
 
 <img width="1069" height="1015" alt="image" src="https://github.com/user-attachments/assets/bcadcebd-608f-4e45-bc18-207c10417749" />
-
 
 When show time added, it appears in `showing` section of Customer portal.
 
