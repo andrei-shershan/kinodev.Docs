@@ -209,6 +209,8 @@ Application Insights Telemetry is available for services:
 
 <img width="1375" height="904" alt="image" src="https://github.com/user-attachments/assets/d2df6ea4-65ce-407d-8b96-b80a3ef23a90" />
 
+<img width="1190" height="823" alt="image" src="https://github.com/user-attachments/assets/871667b5-47b1-47fe-af66-fe5172e8e844" />
+
 ## Use cases
 
 ### Admin Flow
