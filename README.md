@@ -203,7 +203,11 @@ When approved, then app is deployed:
 
 ## Monitoring
 
-Monitoring with App insights
+Application Insights Telemetry is available for services:
+
+<img width="1692" height="802" alt="image" src="https://github.com/user-attachments/assets/f9d218d9-1d1b-4b9f-9a9c-3ebac876d3c1" />
+
+<img width="1375" height="904" alt="image" src="https://github.com/user-attachments/assets/d2df6ea4-65ce-407d-8b96-b80a3ef23a90" />
 
 ## Use cases
 
