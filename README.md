@@ -140,6 +140,16 @@ Adjust `C:\Windows\System32\drivers\etc\hosts`:
 
 Navigate to `KinoDev.Docker` prokect, run `docker compose up --build -d`
 
+<img width="977" height="507" alt="image" src="https://github.com/user-attachments/assets/aa713d12-9b78-43f7-a162-9590d7b698c2" />
+
+Then all containers should run in Docker
+<img width="1875" height="945" alt="image" src="https://github.com/user-attachments/assets/b1b2e0ef-0e6a-49ec-9294-34ef8450e77d" />
+
+And website is available on `ui.kinodev.localhost`
+
+<img width="886" height="1024" alt="image" src="https://github.com/user-attachments/assets/94b427d8-5ab1-4c61-a259-eee41fa90765" />
+
+
 ### PR and branch policies
 
 > [!NOTE]
@@ -222,6 +232,7 @@ Monitoring with App insights
 
 - Code quality, it could be better;
 - Adjust architecture, reduce unnecessary services;
+- Be careful with timezones;
 - Add more business logic to cover full managment, including edit, delete, etc;
 - Add more details about movies - directors, actors, tags, ratings, etc.;
 - Implement customer account;
