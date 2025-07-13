@@ -236,11 +236,31 @@ Admin can add new cinema halls, movies and show timews:
 
 When show time added, it appears in `showing` section of Customer portal.
 
-### User Flow
+### Customer Flow
 
 #### Purchase tickets
 
+Customer select data and movie show time:
+
+<img width="1087" height="1024" alt="image" src="https://github.com/user-attachments/assets/a522e66b-5ebb-4c30-bb05-da6b4cfc86e4" />
+
+<img width="1086" height="1033" alt="image" src="https://github.com/user-attachments/assets/66f45411-2f09-434a-8aa9-c39580f4a919" />
+
+<img width="1024" height="1000" alt="image" src="https://github.com/user-attachments/assets/468efe85-f76e-4ed0-a074-c17fa7ddcd83" />
+
+<img width="1096" height="1011" alt="image" src="https://github.com/user-attachments/assets/395b3495-de85-416c-9aec-b6239b913651" />
+
+The customer recieve pdf with ticket in email:
+<img width="1406" height="826" alt="image" src="https://github.com/user-attachments/assets/4155bcb9-4820-4b1e-9e82-59bbe5e77cc4" />
+
 #### Review tickets
+
+Customer can download their tickets. They need to receive verification code by email:
+<img width="986" height="1014" alt="image" src="https://github.com/user-attachments/assets/2450c332-02d6-416f-86a8-92f6288d5787" />
+
+If code is valid, then customer see their tickets:
+
+<img width="1039" height="1017" alt="image" src="https://github.com/user-attachments/assets/c6105fca-fa5c-4069-af47-5f4b2c1baea4" />
 
 ## Afterwords
 
