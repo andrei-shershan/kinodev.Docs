@@ -74,7 +74,7 @@ Code Hosting: **GitHub**
 
 AI-Assisted Tools*: **Github Copilot**, **ChatGPT**
 
-_*AI was used mostly to assist, autocomplete, create boilerplates, vibe-coding took less than 30% of overall time. _
+_*AI was used mostly to assist, autocomplete, create boilerplates, vibe-coding took less than 30% of overall time._
 
 ## Development
 
